@@ -1,0 +1,10 @@
+pose/ filter=lfs diff=lfs merge=lfs -text
+/checkpoints filter=lfs diff=lfs merge=lfs -text
+/U_2_Net/saved_models filter=lfs diff=lfs merge=lfs -text
+lip_final.pth filter=lfs diff=lfs merge=lfs -text
+pose/pose_iter_440000.caffemodel filter=lfs diff=lfs merge=lfs -text
+checkpoints/label2city/latest_net_G1.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/label2city/latest_net_G.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/label2city/latest_net_G2.pth filter=lfs diff=lfs merge=lfs -text
+checkpoints/label2city/latest_net_U.pth filter=lfs diff=lfs merge=lfs -text
+U_2_Net/saved_models/u2net/u2net.pth filter=lfs diff=lfs merge=lfs -text
